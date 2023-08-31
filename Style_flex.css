@@ -1,0 +1,32 @@
+*{
+    margin: 10 px;
+    padding: 0;
+    color: white;
+    height: 100%;
+    width: 100%;
+
+}
+
+#conatiner{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    border: 1px solid black;
+  }
+  
+
+#box_1{
+    height: 50px;
+    width: 70px;
+    background-color: rgb(94, 94, 211);
+    display: inline;
+    /*align-items: center;
+    justify-content: center;*/
+    border-radius: 10% 10% 10%;
+    text-align: center;
+    border: 3px solid rgb(112, 191, 236);
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: white;
+}
+
+#container{
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box_1{
+    height: 20%;
+    width: 20%;
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+}
+
+#box_2{
+    height: 20%;
+    width: 30%;
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+}

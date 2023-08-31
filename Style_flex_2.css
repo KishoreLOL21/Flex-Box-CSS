@@ -1,0 +1,17 @@
+#container{
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    height: 90%;
+    width: 31%;
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    border-radius: 10%;
+}
+
